@@ -1,6 +1,13 @@
-let friends =[ "khang" , "an" , "thiện" ]
+const friends =[ "khang" , "an" , "thiện" ]
 friends.push("bảo")
 console.log(friends)
 console.log(friends.length)
 console.log(friends[0])
-
+friends.unshift("toàn")
+console.log(friends)
+friends.splice(4 , 1)
+console.log(friends)
+friends.splice(1 ,1 ,"thịnh")
+console.log(friends)
+for(let i = 0 ;i<friends.length; i++)
+    console.log(friends[i])
